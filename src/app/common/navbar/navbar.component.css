@@ -1,0 +1,14 @@
+input{
+    width: 500px;
+    margin-right: 250px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color:    #f1faee;
+ }
+
+a{
+    color: #f1faee;
+}

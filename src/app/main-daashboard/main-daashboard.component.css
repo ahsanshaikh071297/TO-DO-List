@@ -1,0 +1,196 @@
+
+
+.sidebar{
+    margin: 40px;
+    border-radius: 20px;
+    /* From https://css.glass */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(197deg, rgba(2,0,36,1) 0%, rgba(29,53,87,1) 0%, rgba(69,123,157,1) 40%); */
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+
+a{
+    color: whitesmoke;
+}
+
+.form{
+    height: 520px;
+    width: 70%;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 58%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+    padding-top: 10px;
+}
+.button{
+    margin-top: 50px;
+    width: 10%;
+    background-color: #ffffff;
+    color: #080710 !important;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #ffffff !important;
+    background: linear-gradient(
+      to right,
+      #ff512f,
+      #f09819
+  );
+  }
+
+.complete-btn{
+    margin-top: 10px;
+    width: 10%;
+    height: 30%;
+    background-color: #ffffff;
+    color: #080710 !important;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complete-btn:hover{
+    color: #ffffff !important;
+    background: linear-gradient(
+      #1845ad,
+      #23a2f6
+  );
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+/* calendar.component.css */
+.calendar {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .calendar-row {
+    display: flex;
+  }
+  
+  .calendar-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .calendar-cell:hover {
+    background-color: blue;
+  }
+  
+  .task-dot {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 5px;
+  }
+  
+  .task-details {
+    margin-top: 20px;
+  }
+  
+  .task-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .task-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-details li {
+    margin-bottom: 10px;
+  }
+  
+  .task-details li div {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
