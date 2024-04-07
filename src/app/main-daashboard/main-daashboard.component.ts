@@ -11,6 +11,7 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
   styleUrls: ['./main-daashboard.component.css']
 })
 export class MainDaashboardComponent implements OnInit {
+  name : string
   newTask: Task = {
     title: '',
     description: '',
@@ -34,6 +35,7 @@ export class MainDaashboardComponent implements OnInit {
     { title: 'Task 3', dueDate: new Date(2024, 2, 20), description: 'Description of Task 3', status:'Pending' }
     // Add more tasks as needed
   ];
+  hide: boolean;
 
 constructor (private indexedDbService: FormHandleService, private modalService: BsModalService) {
   this.currentDate = new Date();
@@ -46,6 +48,13 @@ ngOnInit(): void {
   }).catch(error => {
     console.error("Error initializing IndexedDB:", error);
   });
+  this.name = localStorage.getItem("name")
+  console.log(this.name)
+  if (this.name == null) {
+    this.name = "Please Login to save progress"
+    this.hide = true
+  }
+
 }
 
 onDrop(event: CdkDragDrop<Task[]>): void {

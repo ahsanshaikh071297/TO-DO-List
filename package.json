@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@azure/msal-angular": "^3.0.15",
+    "@azure/msal-browser": "^3.11.1",
     "bootstrap": "^5.2.3",
     "jquery": "^3.7.1",
     "ngx-bootstrap": "^11.0.2",

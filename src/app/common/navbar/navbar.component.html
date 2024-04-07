@@ -2,9 +2,9 @@
     <div class="container-fluid">
       <img src="assets/task-logo.png" alt="" style="width: 40px;">
       <a class="navbar-brand" href="#" style="margin-left: 10px; font-weight: bolder;font-size: x-large;">Task Manager</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
+      <button class="white-button" (click)="login()" style="margin-left: 1150px;" *ngIf="!loginDisplay">Login</button>&nbsp;
+      <button class="white-button" (click)="logout()" style="margin-left: 1150px;" *ngIf="loginDisplay">logout</button> 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           
