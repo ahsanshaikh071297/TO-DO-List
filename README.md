@@ -17,8 +17,11 @@ This project is a To-Do Task Manager web application that utilizes IndexedDB as 
 
 # Features
 CRUD Operations: Users can perform basic CRUD (Create, Read, Update, Delete) operations on tasks.
+
 IndexedDB Database: Tasks are stored locally in the user's browser using IndexedDB, providing offline access and persistence.
+
 Microsoft Authentication: Users can securely log in and log out using their Microsoft account credentials.
+
 Glassmorphism UI: The UI design follows the Glassmorphism trend, featuring translucent elements and frosted glass effects for a modern look and feel.
 
 # Technologies Used
