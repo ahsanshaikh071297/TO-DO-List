@@ -26,9 +26,13 @@ Glassmorphism UI: The UI design follows the Glassmorphism trend, featuring trans
 
 # Technologies Used
 Angular: Frontend development framework used to build the web application.
+
 IndexedDB: Web browser database for storing tasks locally.
+
 Microsoft Authentication Library (MSAL): Library used to integrate Microsoft Authentication into the application.
+
 HTML, CSS, TypeScript: Languages used for building the frontend components and logic.
+
 Glassmorphism: UI design trend implemented using CSS for the translucent and frosted glass effects.
 
 # Configuration: 
